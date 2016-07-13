@@ -1,0 +1,19 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "description": "an agenda planning application that allows you to optimally chunk your todos so you can complete them in an efficient manner",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clayton Gentry",
+  "license": "ISC",
+  "devDependencies": {
+    "devtron": "^1.2.1",
+    "electron-prebuilt": "^1.2.6"
+  },
+  "dependencies": {
+    "menubar": "^5.0.0"
+  }
+}
